@@ -1,0 +1,57 @@
+/* Variables */
+:root{
+    /*fonts*/
+    --main-font: "Roboto", sans-serif;
+
+    /*colors*/
+    --color-black: #111111;
+    --color-white: #FFFFFF;
+    --color-grey: #434455;
+
+}
+/*Global*/
+body {
+    font-family: var(--main-font);
+    line-height: 1.5;
+    color: var(--color-grey);
+    background-color: #fff;
+
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+
+}
+p {
+    margin: 0;
+}
+ul, ol {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Header */
+
+/* Section 1 */
+
+/* Section 2 */
+
+/* Section 3 */
+
+/* Section 4 */
+
+/* Section 5 */
+
+/* Section 6 */
+
+
+/* Footer */
