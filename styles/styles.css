@@ -59,11 +59,11 @@ img {
 /* Section 4 */
 
 /* Section 5 */
-.strategies-container {
+.appointment-container {
   width: 1300px;
 }
 
-.strategies-title {
+.appointment-title {
   font-family: var(--main-font);
   font-size: 50px;
   font-weight: 600;
@@ -88,6 +88,26 @@ img {
   line-height: 30px;
   letter-spacing: 0.4px;
   color: #1b1b1b;
+}
+
+.post-text-link {
+  font-weight: 700;
+}
+
+.post-text-link:hover,
+.post-text-link:focus {
+  color: #9f6f3c;
+}
+
+.appointment-btn {
+  cursor: pointer;
+  background-color: orange;
+  font-weight: 600;
+}
+
+.appointment-btn:hover,
+.appointment-btn:focus {
+  background-color: darkorange;
 }
 
 /* Section 6 */
