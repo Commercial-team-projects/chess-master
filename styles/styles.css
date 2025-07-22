@@ -43,7 +43,7 @@ img {
   height: auto;
 }
 button {
-  display: inline-block;
+  display: block;
   background-color: var(--color-orange);
   color: var(--color-white);
   text-transform: uppercase;
@@ -66,68 +66,71 @@ button {
 .benefits {
   display: flex;
   flex-direction: row;
+  max-width: 1440px;
+  gap: 50px;
 }
 .benefits-progress-container {
-  max-width: 650px;
-  align-self: center;
+  width: 650px;
 }
 
-.progress-bar {
-  width: 100%;
+/* .progress-bar {
 }
-/* .benefits-progress-list {
+.benefits-progress-list {
 }
 .benefits-progress-item {
 } */
 .percent-progress {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-}
-.benefits-progress-text {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 2.5;
-}
-/* .benefits-progress-subtext {
-} */
-.benefits-container {
+  gap: 20px;
   max-width: 650px;
 }
+.benefits-progress-text {
+  line-height: 2;
+  width: 700px;
+}
+/* .benefits-progress-subtext {
+}
+.benefits-container {
+} */
 .benefits-title {
   font-weight: 600;
-  font-size: 16px;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin: 0 0 20px 0;
+}
+.benefits-subtitle {
+  font-weight: 600;
+  font-size: 24px;
   line-height: 1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-orange);
-}
-.benefits-subtitle {
-  font-weight: 600;
-  font-size: 50px;
-  line-height: 1.1;
-  letter-spacing: 0.01em;
-  text-transform: capitalize;
-  margin: 20px 0 36px 0;
+
+  margin: 0 0 20px 0;
 }
 .benefits-list {
   list-style-type: disc;
   padding-left: 1.5em;
 }
-.benefits-item {
-  margin-left: 10px;
-}
+/* .benefits-item {
+} */
 
 .benefits-text {
   font-weight: 400;
   font-size: 13px;
   line-height: 2.30769;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
 }
 
 .btn-benefits {
-  margin-top: 20px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  white-space: nowrap;
+  width: 300px;
 }
 
 /* Section 4 */
