@@ -70,7 +70,6 @@ button {
 .benefits-progress-container {
   max-width: 650px;
   align-self: center;
-  margin-right: 25px;
 }
 
 .progress-bar {
@@ -93,7 +92,6 @@ button {
 /* .benefits-progress-subtext {
 } */
 .benefits-container {
-  margin-left: 25px;
   max-width: 650px;
 }
 .benefits-title {
