@@ -8,6 +8,7 @@
   --color-white: #ffffff;
   --color-grey: #434455;
 }
+
 /*Global*/
 body {
   font-family: var(--main-font);
@@ -15,6 +16,7 @@ body {
   color: var(--color-grey);
   background-color: #fff;
 }
+
 h1,
 h2,
 h3,
@@ -23,19 +25,23 @@ h5,
 h6 {
   margin: 0;
 }
+
 p {
   margin: 0;
 }
+
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
 }
+
 a {
   text-decoration: none;
   color: currentColor;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -53,6 +59,36 @@ img {
 /* Section 4 */
 
 /* Section 5 */
+.strategies-container {
+  width: 1300px;
+}
+
+.strategies-title {
+  font-family: var(--main-font);
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 55px;
+  letter-spacing: 0.5px;
+  color: #1b1b1b;
+}
+
+.post-title {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.post-text {
+  font-family: "Inter", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #1b1b1b;
+}
 
 /* Section 6 */
 
