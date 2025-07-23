@@ -92,6 +92,18 @@ img {
   line-height: 118%;
   text-align: center;
 }
+
+/* CTA Section */
+
+.cta-section .container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 128px 0 60px;
+}
+
+.cta-list {
+  margin-bottom: 60px;
+}
 /* Section 2 */
 
 /* -----------------Section 3------------------- */
