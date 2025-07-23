@@ -7,6 +7,8 @@
   --color-black: #111111;
   --color-white: #ffffff;
   --color-grey: #434455;
+  --color-d-grey: #1b1b1b;
+  --color-brand: #9f6f3c;
 }
 /*Global*/
 body {
@@ -46,6 +48,50 @@ img {
 
 /* Section 1 */
 
+.hero-section {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.hero-section .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  min-height: 100px;
+  margin: 0 auto;
+
+  padding: 127px 0 74px;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 118%;
+  letter-spacing: 0.01em;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 97px;
+}
+
+.hero-cta {
+  background-color: var(--color-brand);
+  border: 1px solid #9f6f3c;
+  padding: 15px 44px;
+  max-width: 200px;
+  min-height: 55px;
+  text-transform: uppercase;
+
+  margin-bottom: 60px;
+}
+
+.hero-section .desc {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 118%;
+  text-align: center;
+}
 /* Section 2 */
 
 /* -----------------Section 3------------------- */
