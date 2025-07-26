@@ -50,7 +50,27 @@ img {
 
 /* -----------------Section 3------------------- */
 
-/* Section 4 */
+/* Section 4 format sections*/
+
+.formats-section {
+  width: 100%;
+}
+.format-bgm-image {
+}
+.format-container {
+}
+.format-block {
+  height: auto;
+  background-color: #434455;
+}
+.format-title {
+}
+.format-list {
+}
+.format-item {
+}
+.btn-format {
+}
 
 /* Section 5 */
 
