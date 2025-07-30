@@ -73,6 +73,23 @@ button {
   width: 650px;
 }
 
+.benefits-progress-text::after {
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 0;
+  transform: translate(100%, -50%);
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(255, 99, 99) 0%,
+    rgb(250, 163, 100) 40%,
+    rgb(94, 172, 94) 70%,
+    rgb(0, 155, 0) 100%
+  );
+}
+
 /* .progress-bar {
 }
 .benefits-progress-list {
@@ -86,6 +103,7 @@ button {
   max-width: 650px;
 }
 .benefits-progress-text {
+  position: relative;
   line-height: 2;
   width: 700px;
 }
