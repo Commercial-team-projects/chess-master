@@ -7,6 +7,8 @@
   --color-black: #111111;
   --color-white: #ffffff;
   --color-grey: #434455;
+  --color-orange: #9f6f3c;
+  --color-btn: #0be925;
 }
 /*Global*/
 body {
@@ -41,6 +43,19 @@ img {
   max-width: 100%;
   height: auto;
 }
+button {
+  display: block;
+  background-color: var(--color-btn);
+  color: var(--color-grey);
+  text-transform: uppercase;
+  width: 216px;
+  height: 55px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 15px;
+  letter-spacing: 0.04em;
+}
 
 /* Header */
 
@@ -49,6 +64,80 @@ img {
 /* Section 2 */
 
 /* -----------------Section 3------------------- */
+
+.benefits-container {
+  display: flex;
+  gap: 50px;
+}
+
+.benefits-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.benefits-list {
+  list-style-type: decimal;
+  padding-left: 35px;
+}
+
+.benefits-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2.3;
+  letter-spacing: 0.04em;
+}
+
+.benefits-image-container {
+  align-content: center;
+}
+
+.benefits-progress-container {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  width: 100%;
+  margin-top: 128px;
+}
+
+.benefits-desk-container {
+  width: 625px;
+}
+
+.benefits-progress-text::after {
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  height: 4px;
+  width: 100%;
+  background: linear-gradient(
+    to right,
+    rgb(255, 99, 99) 0%,
+    rgb(250, 163, 100) 40%,
+    rgb(94, 172, 94) 70%,
+    rgb(0, 155, 0) 100%
+  );
+}
+
+.benefits-progress-text {
+  position: relative;
+  line-height: 2;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
+.btn-benefits {
+  margin: 128px auto 0 auto;
+  width: 300px;
+}
 
 /* Section 4 format sections*/
 
