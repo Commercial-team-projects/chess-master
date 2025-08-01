@@ -7,6 +7,8 @@
   --color-black: #111111;
   --color-white: #ffffff;
   --color-grey: #434455;
+  --color-d-grey: #1b1b1b;
+  --color-brand: #9f6f3c;
   --color-orange: #9f6f3c;
   --color-btn: #0be925;
 }
@@ -58,6 +60,50 @@ button {
 }
 
 /* Header */
+.header-section {
+  background-color: var(--color-d-grey);
+  color: var(--color-white);
+}
+
+.header-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  min-height: 100px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  gap: 70px;
+}
+
+.menu,
+.lang-switch {
+  display: flex;
+  gap: 44px;
+}
+
+.menu-item,
+lang-item {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 1.6;
+  text-transform: capitalize;
+}
+
+.menu-item:hover a.item-link {
+  color: var(--color-brand);
+}
+
+.main-btn {
+  background-color: var(--color-brand);
+  border: 1px solid #9f6f3c;
+  padding: 15px 44px;
+  max-width: 200px;
+  height: 55px;
+}
 
 /* Section 1 */
 
