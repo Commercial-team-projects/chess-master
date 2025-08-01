@@ -8,6 +8,7 @@
   --color-white: #ffffff;
   --color-grey: #434455;
   --color-orange: #9f6f3c;
+  --color-btn: #0be925;
 }
 /*Global*/
 body {
@@ -44,8 +45,8 @@ img {
 }
 button {
   display: block;
-  background-color: var(--color-orange);
-  color: var(--color-white);
+  background-color: var(--color-btn);
+  color: var(--color-grey);
   text-transform: uppercase;
   width: 216px;
   height: 55px;
@@ -63,22 +64,58 @@ button {
 /* Section 2 */
 
 /* -----------------Section 3------------------- */
-.benefits {
+
+.benefits-container {
   display: flex;
-  flex-direction: row;
-  max-width: 1440px;
   gap: 50px;
 }
+
+.benefits-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+
+.benefits-list {
+  list-style-type: decimal;
+  padding-left: 35px;
+}
+
+.benefits-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.benefits-text {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 2.3;
+  letter-spacing: 0.04em;
+}
+
+.benefits-image-container {
+  align-content: center;
+}
+
 .benefits-progress-container {
-  width: 650px;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  width: 100%;
+  margin-top: 128px;
+}
+
+.benefits-desk-container {
+  width: 625px;
 }
 
 .benefits-progress-text::after {
   position: absolute;
   content: '';
-  top: 50%;
-  right: 0;
-  transform: translate(100%, -50%);
+  bottom: 0;
+  left: 0;
   height: 4px;
   width: 100%;
   background: linear-gradient(
@@ -90,64 +127,15 @@ button {
   );
 }
 
-/* .progress-bar {
-}
-.benefits-progress-list {
-}
-.benefits-progress-item {
-} */
-.percent-progress {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  max-width: 650px;
-}
 .benefits-progress-text {
   position: relative;
   line-height: 2;
-  width: 700px;
-}
-/* .benefits-progress-subtext {
-}
-.benefits-container {
-} */
-.benefits-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  margin: 0 0 20px 0;
-}
-.benefits-subtitle {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--color-orange);
-
-  margin: 0 0 20px 0;
-}
-.benefits-list {
-  list-style-type: disc;
-  padding-left: 1.5em;
-}
-/* .benefits-item {
-} */
-
-.benefits-text {
-  font-weight: 400;
-  font-size: 13px;
-  line-height: 2.30769;
-  letter-spacing: 0.04em;
+  width: 600px;
+  margin-bottom: 15px;
 }
 
 .btn-benefits {
-  margin-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-  white-space: nowrap;
+  margin: 128px auto 0 auto;
   width: 300px;
 }
 
