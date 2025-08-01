@@ -12,6 +12,7 @@
   --color-orange: #9f6f3c;
   --color-btn: #0be925;
 }
+
 /*Global*/
 body {
   font-family: var(--main-font);
@@ -19,6 +20,7 @@ body {
   color: var(--color-grey);
   background-color: #fff;
 }
+
 h1,
 h2,
 h3,
@@ -27,19 +29,23 @@ h5,
 h6 {
   margin: 0;
 }
+
 p {
   margin: 0;
 }
+
 ul,
 ol {
   list-style-type: none;
   margin: 0;
   padding-left: 0;
 }
+
 a {
   text-decoration: none;
   color: currentColor;
 }
+
 img {
   display: block;
   max-width: 100%;
@@ -264,6 +270,56 @@ lang-item {
 }
 
 /* Section 5 */
+.appointment-container {
+  width: 1300px;
+}
+
+.appointment-title {
+  font-family: var(--main-font);
+  font-size: 50px;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 55px;
+  letter-spacing: 0.5px;
+  color: #1b1b1b;
+}
+
+.post-title {
+  font-family: var(--main-font);
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.post-text {
+  font-family: "Inter", Sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  line-height: 30px;
+  letter-spacing: 0.4px;
+  color: #1b1b1b;
+}
+
+.post-text-link {
+  font-weight: 700;
+}
+
+.post-text-link:hover,
+.post-text-link:focus {
+  color: #9f6f3c;
+}
+
+.appointment-btn {
+  cursor: pointer;
+  background-color: orange;
+  font-weight: 600;
+}
+
+.appointment-btn:hover,
+.appointment-btn:focus {
+  background-color: darkorange;
+}
 
 /* Section 6 */
 
