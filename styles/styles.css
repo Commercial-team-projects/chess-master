@@ -51,6 +51,7 @@ img {
   max-width: 100%;
   height: auto;
 }
+
 button {
   display: block;
   background-color: var(--color-btn);
@@ -111,6 +112,15 @@ lang-item {
   height: 55px;
 }
 
+/*  container common */
+
+/* .container {
+  max-width: 1340px;
+  padding: 0 20px;
+  margin: 0 auto;
+} */
+
+
 /* Section 1 */
 
 .hero-section {
@@ -169,6 +179,7 @@ lang-item {
 .cta-list {
   margin-bottom: 60px;
 }
+
 /* Section 2 */
 
 /* -----------------Section 3------------------- */
@@ -226,13 +237,11 @@ lang-item {
   left: 0;
   height: 4px;
   width: 100%;
-  background: linear-gradient(
-    to right,
-    rgb(255, 99, 99) 0%,
-    rgb(250, 163, 100) 40%,
-    rgb(94, 172, 94) 70%,
-    rgb(0, 155, 0) 100%
-  );
+  background: linear-gradient(to right,
+      rgb(255, 99, 99) 0%,
+      rgb(250, 163, 100) 40%,
+      rgb(94, 172, 94) 70%,
+      rgb(0, 155, 0) 100%);
 }
 
 .benefits-progress-text {
@@ -247,27 +256,93 @@ lang-item {
   width: 300px;
 }
 
-/* Section 4 format sections*/
+/* 
+       Section 4 format sections
+============================ */
 
 .formats-section {
-  width: 100%;
+  /* position: relative; */
+  margin-bottom: 120px;
+
+
 }
-.format-bgm-image {
+
+.container {
+  width: calc(1300px + 40px);
+  padding: 0 20px;
+  margin: 0 auto;
 }
-.format-container {
-}
+
 .format-block {
-  height: auto;
-  background-color: #434455;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  width: 1200px;
+  height: 532px;
 }
+
+.format-bgm {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  background-image: url(/images/formats-bgm/formats-bgm.jpg);
+  background-color: var(--color-grey);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 40%;
+  z-index: 1;
+
+}
+
+.format-text {
+  flex-direction: column;
+  position: relative;
+  top: 50px;
+  left: 70px;
+  z-index: 2;
+}
+
 .format-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 1.1;
+  letter-spacing: 0.01em;
+  color: var(--color-black);
+  margin-bottom: 90px;
 }
+
 .format-list {
+  color: var(--color-black)
 }
-.format-item {
+
+.format-desc {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 2.1;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
 }
+
+.btn-format {}
+
+
+/* 
+       Button section "chose your format
+============================ */
+.container-btn {}
+
 .btn-format {
+  margin-right: auto;
+  margin-left: auto;
 }
+
+
 
 /* Section 5 */
 .appointment-container {
