@@ -261,10 +261,7 @@ lang-item {
 ============================ */
 
 .formats-section {
-  /* position: relative; */
-  margin-bottom: 120px;
-
-
+  margin-bottom: 128px;
 }
 
 .container {
@@ -297,7 +294,6 @@ lang-item {
   background-size: cover;
   opacity: 40%;
   z-index: 1;
-
 }
 
 .format-text {
@@ -329,17 +325,26 @@ lang-item {
   text-transform: capitalize;
 }
 
-.btn-format {}
-
-
 /* 
        Button section "chose your format
 ============================ */
-.container-btn {}
+.container-btn {
+  margin-bottom: 128px;
+}
 
 .btn-format {
+  display: block;
+  color: #fff;
+  background-color: var(--color-brand);
+  border: 1px solid #9f6f3c;
+  padding: 15px 15px;
+  max-width: 253px;
+  min-height: 55px;
+  text-transform: uppercase;
+  text-align: center;
   margin-right: auto;
   margin-left: auto;
+  border-radius: 5px;
 }
 
 
